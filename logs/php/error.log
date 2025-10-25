@@ -1,0 +1,2 @@
+[24-Oct-2025 15:14:59 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/koikedaisuke/Local Sites/sesame-site/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[24-Oct-2025 16:35:29 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/koikedaisuke/Local Sites/sesame-site/app/public/wp-includes/class-wp-customize-widgets.php on line 926

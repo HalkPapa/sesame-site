@@ -1,0 +1,357 @@
+/* ページコンテンツ共通スタイル */
+.page-content {
+    padding-bottom: 120px;
+}
+
+.page-header {
+    margin-bottom: 60px;
+}
+
+.page-title {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.page-entry {
+    font-size: 17px;
+    line-height: 2;
+    color: #555;
+}
+
+.page-entry p {
+    margin-bottom: 1.5em;
+}
+
+/* Company用スタイル */
+.company-intro {
+    margin-bottom: 60px;
+}
+
+.company-intro p {
+    font-size: 17px;
+    line-height: 2;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.company-philosophy {
+    margin-top: 80px;
+    padding: 50px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+
+.philosophy-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.philosophy-text {
+    font-size: 17px;
+    line-height: 2.2;
+    color: #555;
+}
+
+/* Contact用スタイル */
+.contact-info {
+    background: #f8f8f8;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #333;
+}
+
+.contact-info h3:first-child {
+    margin-top: 0;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.contact-email {
+    margin-bottom: 30px;
+}
+
+.contact-email a {
+    color: #5B9FBD;
+    text-decoration: none;
+    font-size: 18px;
+    transition: opacity 0.3s ease;
+}
+
+.contact-email a:hover {
+    opacity: 0.7;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 60px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contact-form-notice {
+    background: #f0f8ff;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 4px solid #5B9FBD;
+}
+
+.contact-form-notice p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contact-form-notice ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contact-form-notice li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.contact-form-notice a {
+    color: #5B9FBD;
+    text-decoration: none;
+}
+
+.contact-form-notice a:hover {
+    text-decoration: underline;
+}
+
+/* Work用スタイル（既存のものに追加） */
+.work-posts {
+    margin-top: 80px;
+}
+
+.work-posts-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.work-thumbnail {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.work-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.work-item:hover .work-thumbnail img {
+    transform: scale(1.05);
+}
+
+.work-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #5B9FBD;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.work-link:hover {
+    opacity: 0.7;
+}
+
+/* Contact Form 7のスタイル調整 */
+.wpcf7-form p {
+    margin-bottom: 20px;
+}
+
+.wpcf7-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.wpcf7-form input[type="text"]:focus,
+.wpcf7-form input[type="email"]:focus,
+.wpcf7-form textarea:focus {
+    outline: none;
+    border-color: #5B9FBD;
+}
+
+.wpcf7-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.wpcf7-form input[type="submit"] {
+    background: #5B9FBD;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+/* レスポンシブ */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 32px;
+    }
+    
+    .company-philosophy {
+        padding: 30px 20px;
+    }
+    
+    .contact-info {
+        padding: 30px 20px;
+    }
+    
+    .contact-form {
+        padding: 30px 20px;
+    }
+    
+    .contact-form h3 {
+        font-size: 20px;
+    }
+}
+/* ================================================
+   Privacy Policy ページ用スタイル
+   ================================================ */
+
+.privacy-policy-content {
+    max-width: 900px;
+    padding-bottom: 100px;
+}
+
+.privacy-policy-body {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #555;
+}
+
+.policy-section {
+    margin-bottom: 50px;
+}
+
+.policy-section h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5B9FBD;
+}
+
+.policy-section p {
+    margin-bottom: 1.2em;
+    line-height: 2;
+}
+
+.policy-section ul {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.policy-section li {
+    margin-bottom: 10px;
+    line-height: 1.9;
+}
+
+.contact-info {
+    background: #f8f8f8;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.contact-info a {
+    color: #5B9FBD;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.contact-info a:hover {
+    opacity: 0.7;
+}
+
+.policy-footer {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.policy-footer p {
+    margin-bottom: 8px;
+}
+
+/* レスポンシブ */
+@media (max-width: 768px) {
+    .privacy-policy-content {
+        max-width: 100%;
+    }
+    
+    .policy-section h2 {
+        font-size: 20px;
+    }
+    
+    .privacy-policy-body {
+        font-size: 14px;
+    }
+    
+    .contact-info {
+        padding: 15px 20px;
+    }
+}
